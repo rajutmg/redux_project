@@ -1,0 +1,71 @@
+$mainfont: 'Open Sans', sans-serif;
+body{
+font-family: $mainfont;
+}
+.btn-primary{
+  background-color: #c40b03;
+  border-color: #b80c0c;
+  &:hover{
+    background-color: lighten(#c40b03, 5%);
+    border-color: lighten(#c40b03, 6%);
+  }
+}
+a {
+  color: #c40b03;
+  text-decoration: none;
+  &:hover{
+    color: lighten(#c40b03, 5%);
+  }
+}
+.navbar{
+  box-shadow: 0px 7px 40px rgba(#000000, 0.1);
+  .navbar-nav {
+    li.nav-item {
+    margin: 0 5px;
+  }
+  }
+  .logo{
+    height: 38px;
+  }
+  .user{
+    height: 28px;
+    margin-top: -2px;
+    margin-right: 10px;
+  }
+}
+
+.card{
+  border: 0;
+  position: relative;
+}
+.btn-profile{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top-right-radius: 100px;
+}
+.btn-edit{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+  .logo{
+    height: 50px;
+  }
+
+  .loading 
+  {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  .text-primary {
+    color: #c40b03!important;
+}
